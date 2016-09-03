@@ -1,69 +1,187 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display" />
-        <meta charset="UTF-8" />
-        <title>Guido Bakkes.</title>
+<head>
 
-    </head>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display" />
+    <script src="https://use.fontawesome.com/052d44aff7.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <meta charset="UTF-8" />
+    <title>Guido Bakkes.</title>
 
-    <body>
+</head>
 
-        <div class="portfolio-body mtl pal">
-            <nav class="nav pbm">
-                <span>
+<body>
+
+    <div class="container">
+        <div id="card">
+            <div class="portfolio-body mtl pal flipper flipped" id="home">
+                <nav class="nav pbm">
+                    <span>
                     <ul class="list-style-none uppercase">
                         <li class="inline page-name">
-                            <a href="#">
-                                Portfolio
+                            <a href="#home" class="active">
+                                Home
                             </a>
                         </li>
                     </ul>
                 </span>
-                <span class="right prm">
+                    <span class="right prm">
                     <ul class="list-style-none uppercase">
-                        <li class="inline prm"><a href="#">About me</a></li>
-                        <li class="inline prm"><a href="#">Experience</a></li>
-                        <li class="inline"><a href="#">Skills</a></li>
+                        <li class="inline prm"><a href="#about-me">About me</a></li>
+                        <li class="inline prm"><a href="#portfolio">Portfolio</a></li>
+                        <li class="inline"><a href="#skills">Skills</a></li>
                     </ul>
                 </span>
-            </nav>
-            <section class="ptl mtm">
-                <h1 class="absolute">
+                </nav>
+                <section class="ptl mtm">
+                    <h1 class="absolute">
                     Hey, I'm a Front-end Developer
                 </h1>
-                <div class="about-me prm ptm">
-                    <div class="separator">
+                    <div class="about-me prm ptm">
+                        <div class="separator">
+                        </div>
+                        <p class="paragraph">
+                            My name is Guido. I've started my journey into web development about a year ago. So far I've worked with HTML5, CSS3, SASS, CSS Frameworks (Bootstrap, Foundation), JavaScript, jQuery, AngularJS, PHP and Laravel.
+                        </p>
+                        <p class="text-center ptm">
+                            <a href="https://nl.linkedin.com/in/guidobakkes" class="mrs">
+                                <i class="fa fa-linkedin"></i>
+                            </a> |
+                            <a href="https://www.facebook.com/guidobakkes" class="mrs mls">
+                                <i class="fa fa-facebook"></i>
+                            </a> |
+                            <a href="https://github.com/guidobakkes" class="mls">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </p>
                     </div>
-                    <p class="introduction">My name is Guido. I've started
-                        my journey into web development about a year ago. So far
-                        I've worked with HTML5, CSS3, SASS, CSS Frameworks
-                        (Bootstrap, Foundation), JavaScript, jQuery, AngularJS,
-                        PHP and Laravel.
-                    </p>
-                    <p class="text-center ptm">
-                        <a href="https://nl.linkedin.com/in/guidobakkes"
-                           class="mrs">
-                            LinkedIn
-                        </a> |
-                        <a href="https://www.facebook.com/guidobakkes"
-                           class="mrs mls">
-                            Facebook
-                        </a> |
-                        <a href="https://github.com/guidobakkes" class="mls">
-                            Github
-                        </a>
-                    </p>
-                </div>
-                <div class="trigger">
-                    <div class="box">
+                    <div class="trigger">
+                        <div class="box">
+                        </div>
                     </div>
-                </div>
-            </section>
-        </div>
+                </section>
+            </div>
 
-    </body>
+
+            <!-- About me -->
+            <div class="portfolio-body mtl pal flipper after" id="about-me">
+                <nav class="nav pbm">
+                    <span>
+                    <ul class="list-style-none uppercase">
+                        <li class="inline page-name">
+                            <a href="#home">
+                                Home
+                            </a>
+                        </li>
+                    </ul>
+                </span>
+                    <span class="right prm">
+                    <ul class="list-style-none uppercase">
+                        <li class="inline prm">
+                            <a href="#about-me" class="active">
+                                About me
+                            </a>
+                        </li>
+                        <li class="inline prm">
+                            <a href="#portfolio">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="inline">
+                            <a href="#skills">
+                                Skills
+                            </a>
+                        </li>
+                    </ul>
+                </span>
+                </nav>
+                <section class="ptl mtm">
+                    <p class="paragraph">
+                        About a year ago I've started devoting all of my time to learning how to code. I started off with a few basic websites and a 2D sidescroller game, and ended up working at Weblab.nl. With the work experience I was gaining at that company, my motivation
+                        only grew and found myself constantly striving to further my abilities.
+                    </p>
+                </section>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="portfolio-body mtl pal flipper after" id="portfolio">
+                <nav class="nav pbm">
+                    <span>
+                    <ul class="list-style-none uppercase">
+                        <li class="inline page-name">
+                            <a href="#home">
+                                Home
+                            </a>
+                        </li>
+                    </ul>
+                </span>
+                    <span class="right prm">
+                    <ul class="list-style-none uppercase">
+                        <li class="inline prm">
+                            <a href="#about-me">
+                                About me
+                            </a>
+                        </li>
+                        <li class="inline prm">
+                            <a href="#portfolio" class="active">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="inline">
+                            <a href="#skills">
+                                Skills
+                            </a>
+                        </li>
+                    </ul>
+                </span>
+                </nav>
+                <section class="ptl mtm">
+
+                </section>
+            </div>
+
+            <!-- Skills -->
+            <div class="portfolio-body mtl pal flipper after" id="skills">
+                <nav class="nav pbm">
+                    <span>
+                    <ul class="list-style-none uppercase">
+                        <li class="inline page-name">
+                            <a href="#home">
+                                Home
+                            </a>
+                        </li>
+                    </ul>
+                </span>
+                    <span class="right prm">
+                    <ul class="list-style-none uppercase">
+                        <li class="inline prm">
+                            <a href="#about-me">
+                                About me
+                            </a>
+                        </li>
+                        <li class="inline prm">
+                            <a href="#portfolio">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="inline">
+                            <a href="#skills" class="active">
+                                Skills
+                            </a>
+                        </li>
+                    </ul>
+                </span>
+                </nav>
+                <section class="ptl mtm">
+
+                </section>
+            </div>
+        </div>
+    </div>
+<script src="js/cardflip.js"></script>
+</body>
+
 </html>

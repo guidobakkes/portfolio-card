@@ -1,0 +1,36 @@
+.portfolio-body {
+  min-width: 666px;
+  height: 400px;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 11px 34px -10px rgba(0,0,0,0.42);
+  .page-name {
+    position: absolute;
+    left: 42px;
+  }
+  .about-me {
+    width: 333px;
+    float: left;
+  }
+  .trigger {
+    &:hover .box {
+      transform: translate(100px, 75px) rotate(20deg);
+    }
+  }
+  .box {
+    width: 300px;
+    height: 300px;
+  	overflow: hidden;
+    border: 7px solid $main-color;
+    box-sizing: border-box;
+    pointer-events: none;
+    transition: transform 300ms ease-in-out;
+    animation: myframes 2s ease-in-out 0s infinite;
+  }
+  .separator {
+    width: 210px;
+    height: 7px;
+    background: $main-color;
+    margin-top: 60px;
+  }
+}
