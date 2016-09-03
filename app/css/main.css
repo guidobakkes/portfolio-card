@@ -1,0 +1,131 @@
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.absolute {
+  position: absolute; }
+
+.relative {
+  position: relative; }
+
+.fixed {
+  position: fixed; }
+
+.list-style-none {
+  margin: 0;
+  list-style: none; }
+
+.inline {
+  display: inline-block; }
+
+.mtl {
+  margin-top: 40px; }
+
+.pal {
+  padding: 40px; }
+
+.ptl {
+  padding-top: 40px; }
+
+.prl {
+  padding-right: 40px; }
+
+.pbl {
+  padding-bottom: 40px; }
+
+.pll {
+  padding-left: 40px; }
+
+.pam {
+  padding: 20px; }
+
+.ptm {
+  padding-top: 20px; }
+
+.prm {
+  padding-right: 20px; }
+
+.pbm {
+  padding-bottom: 20px; }
+
+.plm {
+  padding-left: 20px; }
+
+.mts {
+  margin-top: 10px; }
+
+.mrs {
+  margin-right: 10px; }
+
+.mbs {
+  margin-bottom: 10px; }
+
+.mls {
+  margin-left: 10px; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.lowercase {
+  text-transform: lowercase; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+a {
+  color: #1C252E;
+  text-decoration: none; }
+  a:hover {
+    border-bottom: 7px solid #1C252E; }
+  a.active {
+    border-bottom: 7px solid #1C252E; }
+
+body {
+  max-width: 700px;
+  margin: 80px auto;
+  background: linear-gradient(to right, whitesmoke 0%, #f6f6f6 47%, #dceaed 100%); }
+
+.portfolio-body {
+  min-width: 666px;
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 11px 34px -10px rgba(0, 0, 0, 0.42); }
+
+.page-name {
+  position: absolute;
+  left: 42px; }
+
+.about-me {
+  width: 333px;
+  float: left; }
+
+.trigger:hover .box {
+  transform: translate(100px, 75px) rotate(20deg); }
+
+.box {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border: 7px solid #1C252E;
+  box-sizing: border-box;
+  pointer-events: none;
+  transition: transform 300ms ease-in-out;
+  animation: myframes 2s ease-in-out 0s infinite; }
+
+.separator {
+  width: 210px;
+  height: 7px;
+  background: #1C252E;
+  margin-top: 60px; }
+
+.introduction {
+  font-family: 'Lato', sans-serif;
+  line-height: 30px; }
