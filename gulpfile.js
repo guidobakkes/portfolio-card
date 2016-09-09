@@ -1,6 +1,6 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var browserSync = require('browser-sync').create();
+var gulp        = require('gulp'),
+    sass        = require('gulp-sass'),
+    browserSync = require('browser-sync').create();
 
 gulp.task('sass', function() {
     return gulp.src('app/scss/**/*.scss')

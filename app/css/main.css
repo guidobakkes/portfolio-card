@@ -74,6 +74,9 @@
 .inline {
   display: inline-block; }
 
+.force-no-b {
+  border: none !important; }
+
 .mtl {
   margin-top: 40px; }
 
@@ -178,4 +181,5 @@ a {
 body {
   max-width: 700px;
   margin: 40px auto;
+  color: #1C252E;
   background: linear-gradient(to right, whitesmoke 0%, #f6f6f6 47%, #dceaed 100%); }
