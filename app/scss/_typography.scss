@@ -1,4 +1,6 @@
 $main-color: #1C252E;
+$dark: #000;
+$link-disabled: lighten($dark, 50%);
 
 .uppercase { text-transform: uppercase; }
 .lowercase { text-transform: lowercase; }
@@ -22,4 +24,9 @@ a {
   &.active {
     border-bottom: 7px solid $main-color;
   }
+}
+
+.link-disabled {
+  color: $link-disabled;
+  cursor: not-allowed;
 }

@@ -5,6 +5,9 @@
 .relative { position: relative; }
 .fixed { position: fixed; }
 
+.z-low { z-index: -5; }
+.z-high { z-index: 5; }
+
 .list-style-none {
   margin: 0;
   list-style: none;

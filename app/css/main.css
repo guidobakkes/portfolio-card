@@ -67,6 +67,12 @@
 .fixed {
   position: fixed; }
 
+.z-low {
+  z-index: -5; }
+
+.z-high {
+  z-index: 5; }
+
 .list-style-none {
   margin: 0;
   list-style: none; }
@@ -148,6 +154,10 @@ a {
     border-bottom: 7px solid #1C252E; }
   a.active {
     border-bottom: 7px solid #1C252E; }
+
+.link-disabled {
+  color: gray;
+  cursor: not-allowed; }
 
 .portfolio-body, .about-me-body {
   min-width: 666px;
